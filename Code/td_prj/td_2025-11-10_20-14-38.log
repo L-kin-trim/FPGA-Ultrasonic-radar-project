@@ -1,0 +1,980 @@
+============================================================
+   Tang Dynasty, V5.6.71036
+      Copyright (c) 2012-2023 Anlogic Inc.
+   Executable = D:/Anlogic/bin/td.exe
+   Built at =   20:34:38 Mar 21 2023
+   Run by =     lkin
+   Run Date =   Mon Nov 10 20:14:38 2025
+
+   Run on =     LAPTOP-90SJ6A72
+============================================================
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : analyze verilog file ../rtl/HC_SR04.v
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : eco open net = 0
+PHY-1001 : 0 feed throughs used by 0 nets
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+RUN-1003 : finish command "import_db C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang_pr.db" in  2.615656s wall, 0.265625s user + 0.015625s system = 0.281250s CPU (10.8%)
+
+RUN-1004 : used memory is 493 MB, reserved memory is 440 MB, peak memory is 529 MB
+GUI-1001 : User opens ChipWatcher ...
+GUI-1001 : User closes ChipWatcher ...
+RUN-1001 : reset_run syn_1 phy_1.
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : eco open net = 0
+PHY-1001 : 0 feed throughs used by 0 nets
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+GUI-1001 : User opens ChipWatcher ...
+GUI-1001 : User closes ChipWatcher ...
+HDL-1007 : analyze verilog file ../rtl/HC_SR04.v
+RUN-1001 : reset_run syn_1 phy_1.
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-5010 WARNING: Net clk_dup_3 is skipped due to 0 input or output
+PHY-5010 WARNING: Net clk_dup_3 is skipped due to 0 input or output
+PHY-1001 : eco open net = 0
+PHY-1001 : 0 feed throughs used by 0 nets
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+GUI-1001 : User opens ChipWatcher ...
+PRG-1000 : <!-- HMAC is: 8f45a007e802fd2b85b46f9a902fa00b69ee004a0aaa2b4ec750a60d0f1113c8 -->
+PRG-1000 : <!-- HMAC is: 8f45a007e802fd2b85b46f9a902fa00b69ee004a0aaa2b4ec750a60d0f1113c8 -->
+HDL-1007 : analyze verilog file ../rtl/HC_SR04.v
+RUN-1001 : reset_run syn_1 phy_1.
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : net clk_dup_3 will be routed on clock mesh
+PHY-5010 WARNING: Net echo_dup_3 is skipped due to 0 input or output
+PHY-1001 : clock net config_inst_syn_10 will be merged with clock config_inst_syn_9
+PHY-5010 WARNING: Net echo_dup_3 is skipped due to 0 input or output
+PHY-1001 : eco open net = 0
+PHY-1001 : 1 feed throughs used by 1 nets
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import ChipWatcher
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+RUN-1002 : start command "config_chipwatcher -sync DaChuang.cwc -dir "
+KIT-1004 : ChipWatcher: import watcher inst auto_chipwatcher_0 completed, there are 1 view nodes, 1 trigger nets, 1 data nets.
+GUI-1001 : Import DaChuang.cwc success!
+RUN-1002 : start command "download -bit DaChuang_Runs/phy_1/DaChuang.bit -mode jtag_burst -spd 7 -cable 0 -total_dev 1 -cur_dev 1"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit DaChuang_Runs/phy_1/DaChuang.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  6.266433s wall, 0.000000s user + 0.015625s system = 0.015625s CPU (0.2%)
+
+RUN-1004 : used memory is 576 MB, reserved memory is 510 MB, peak memory is 594 MB
+RUN-1003 : finish command "download -bit DaChuang_Runs/phy_1/DaChuang.bit -mode jtag_burst -spd 7 -cable 0 -total_dev 1 -cur_dev 1" in  6.457207s wall, 0.062500s user + 0.015625s system = 0.078125s CPU (1.2%)
+
+RUN-1004 : used memory is 576 MB, reserved memory is 510 MB, peak memory is 594 MB
+GUI-1001 : Downloading succeeded!
+KIT-1004 : ChipWatcher: write ctrl reg value: 00000000000000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 01011100000000100000000000010000
+KIT-1004 : ChipWatcher: the value of status register = 110000000000001000
+RUN-1002 : start command "rdbk_bram -bram 0X0004 -cable 0 -total_dev 1 -cur_dev 1"
+KIT-1001 : Read back data from BRAM 0X0004 successfully.
+SYN-2541 : Attrs-to-init for 1 logic bram(s)
+SYN-2541 : Reading sub[0] auto_chipwatcher_0_logicbram_syn_1
+KIT-1004 : ChipWatcher: write ctrl reg value: 01011100000000100000000000000000
+PRG-1000 : <!-- HMAC is: 9669f27691ad168cbff5bb86df6450f9fdb5d3239741b87739d1b669098db74e -->
+RUN-1001 : reset_run syn_1 phy_1.
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : net clk_dup_3 will be routed on clock mesh
+PHY-5010 WARNING: Net echo_dup_3 is skipped due to 0 input or output
+PHY-1001 : clock net config_inst_syn_10 will be merged with clock config_inst_syn_9
+PHY-5010 WARNING: Net echo_dup_3 is skipped due to 0 input or output
+PHY-1001 : eco open net = 0
+PHY-1001 : 1 feed throughs used by 1 nets
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import ChipWatcher
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+RUN-1002 : start command "config_chipwatcher -sync DaChuang.cwc -dir "
+KIT-1004 : ChipWatcher: import watcher inst auto_chipwatcher_0 completed, there are 1 view nodes, 1 trigger nets, 1 data nets.
+GUI-1001 : Import DaChuang.cwc success!
+HDL-1007 : analyze verilog file ../rtl/HC_SR04.v
+RUN-1001 : reset_run syn_1 phy_1.
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : net clk_dup_3 will be routed on clock mesh
+PHY-5010 WARNING: Net echo_dup_3 is skipped due to 0 input or output
+PHY-1001 : clock net config_inst_syn_10 will be merged with clock config_inst_syn_9
+PHY-5010 WARNING: Net echo_dup_3 is skipped due to 0 input or output
+PHY-1001 : eco open net = 0
+PHY-1001 : 0 feed throughs used by 0 nets
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import ChipWatcher
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+RUN-1002 : start command "config_chipwatcher -sync DaChuang.cwc -dir "
+KIT-1004 : ChipWatcher: import watcher inst auto_chipwatcher_0 completed, there are 1 view nodes, 1 trigger nets, 1 data nets.
+GUI-1001 : Import DaChuang.cwc success!
+RUN-1002 : start command "download -bit DaChuang_Runs\phy_1\DaChuang.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit DaChuang_Runs/phy_1/DaChuang.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  6.257508s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+RUN-1004 : used memory is 618 MB, reserved memory is 552 MB, peak memory is 635 MB
+RUN-1003 : finish command "download -bit DaChuang_Runs\phy_1\DaChuang.bit -mode jtag -spd 7 -sec 64 -cable 0" in  6.454259s wall, 0.046875s user + 0.000000s system = 0.046875s CPU (0.7%)
+
+RUN-1004 : used memory is 618 MB, reserved memory is 552 MB, peak memory is 635 MB
+GUI-1001 : Downloading succeeded!
+KIT-1004 : ChipWatcher: write ctrl reg value: 00000000000000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 01011100100000000000000000010000
+KIT-1004 : ChipWatcher: the value of status register = 110000000000001000
+RUN-1002 : start command "rdbk_bram -bram 0X0004 -cable 0 -total_dev 1 -cur_dev 1"
+KIT-1001 : Read back data from BRAM 0X0004 successfully.
+SYN-2541 : Attrs-to-init for 1 logic bram(s)
+SYN-2541 : Reading sub[0] auto_chipwatcher_0_logicbram_syn_1
+KIT-1004 : ChipWatcher: write ctrl reg value: 01011100100000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 00000000000000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 01011100100000000000000000010000
+KIT-1004 : ChipWatcher: the value of status register = 110000000000001000
+RUN-1002 : start command "rdbk_bram -bram 0X0004 -cable 0 -total_dev 1 -cur_dev 1"
+KIT-1001 : Read back data from BRAM 0X0004 successfully.
+SYN-2541 : Attrs-to-init for 1 logic bram(s)
+SYN-2541 : Reading sub[0] auto_chipwatcher_0_logicbram_syn_1
+KIT-1004 : ChipWatcher: write ctrl reg value: 01011100100000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 00000000000000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 01011100100000000000000000010000
+KIT-1004 : ChipWatcher: the value of status register = 110000000000001000
+RUN-1002 : start command "rdbk_bram -bram 0X0004 -cable 0 -total_dev 1 -cur_dev 1"
+KIT-1001 : Read back data from BRAM 0X0004 successfully.
+SYN-2541 : Attrs-to-init for 1 logic bram(s)
+SYN-2541 : Reading sub[0] auto_chipwatcher_0_logicbram_syn_1
+KIT-1004 : ChipWatcher: write ctrl reg value: 01011100100000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 00000000000000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 01011100100000000000000000010000
+KIT-1004 : ChipWatcher: the value of status register = 110000000000001000
+RUN-1002 : start command "rdbk_bram -bram 0X0004 -cable 0 -total_dev 1 -cur_dev 1"
+KIT-1001 : Read back data from BRAM 0X0004 successfully.
+SYN-2541 : Attrs-to-init for 1 logic bram(s)
+SYN-2541 : Reading sub[0] auto_chipwatcher_0_logicbram_syn_1
+KIT-1004 : ChipWatcher: write ctrl reg value: 01011100100000000000000000000000
+HDL-1007 : analyze verilog file ../rtl/HC_SR04.v
+RUN-1001 : reset_run syn_1 phy_1.
+GUI-6001 WARNING: File C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang.bit does not exist!
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : net clk_dup_3 will be routed on clock mesh
+PHY-5010 WARNING: Net echo_dup_3 is skipped due to 0 input or output
+PHY-1001 : clock net config_inst_syn_10 will be merged with clock config_inst_syn_9
+PHY-5010 WARNING: Net echo_dup_3 is skipped due to 0 input or output
+PHY-1001 : eco open net = 0
+PHY-1001 : 3 feed throughs used by 3 nets
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import ChipWatcher
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+RUN-1002 : start command "config_chipwatcher -sync DaChuang.cwc -dir "
+KIT-1004 : ChipWatcher: import watcher inst auto_chipwatcher_0 completed, there are 1 view nodes, 1 trigger nets, 1 data nets.
+GUI-1001 : Import DaChuang.cwc success!
+RUN-1002 : start command "download -bit DaChuang_Runs/phy_1/DaChuang.bit -mode jtag_burst -spd 7 -cable 0 -total_dev 1 -cur_dev 1"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit DaChuang_Runs/phy_1/DaChuang.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  6.268571s wall, 0.015625s user + 0.031250s system = 0.046875s CPU (0.7%)
+
+RUN-1004 : used memory is 639 MB, reserved memory is 569 MB, peak memory is 663 MB
+RUN-1003 : finish command "download -bit DaChuang_Runs/phy_1/DaChuang.bit -mode jtag_burst -spd 7 -cable 0 -total_dev 1 -cur_dev 1" in  6.461540s wall, 0.062500s user + 0.046875s system = 0.109375s CPU (1.7%)
+
+RUN-1004 : used memory is 639 MB, reserved memory is 569 MB, peak memory is 663 MB
+GUI-1001 : Downloading succeeded!
+KIT-1004 : ChipWatcher: write ctrl reg value: 00000000000000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 01011100100000000000000000010000
+KIT-1004 : ChipWatcher: the value of status register = 110000000000001000
+RUN-1002 : start command "rdbk_bram -bram 0X0004 -cable 0 -total_dev 1 -cur_dev 1"
+KIT-1001 : Read back data from BRAM 0X0004 successfully.
+SYN-2541 : Attrs-to-init for 1 logic bram(s)
+SYN-2541 : Reading sub[0] auto_chipwatcher_0_logicbram_syn_1
+KIT-1004 : ChipWatcher: write ctrl reg value: 01011100100000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 00000000000000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 01011100100000000000000000010000
+KIT-1004 : ChipWatcher: the value of status register = 110000000000001000
+RUN-1002 : start command "rdbk_bram -bram 0X0004 -cable 0 -total_dev 1 -cur_dev 1"
+KIT-1001 : Read back data from BRAM 0X0004 successfully.
+SYN-2541 : Attrs-to-init for 1 logic bram(s)
+SYN-2541 : Reading sub[0] auto_chipwatcher_0_logicbram_syn_1
+KIT-1004 : ChipWatcher: write ctrl reg value: 01011100100000000000000000000000
+RUN-1001 : reset_run syn_1 phy_1.
+GUI-6001 WARNING: File C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang.bit does not exist!
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : net clk_dup_3 will be routed on clock mesh
+PHY-5010 WARNING: Net echo_dup_3 is skipped due to 0 input or output
+PHY-1001 : clock net config_inst_syn_10 will be merged with clock config_inst_syn_9
+PHY-5010 WARNING: Net echo_dup_3 is skipped due to 0 input or output
+PHY-1001 : eco open net = 0
+PHY-1001 : 0 feed throughs used by 0 nets
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import ChipWatcher
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+RUN-1002 : start command "config_chipwatcher -sync DaChuang.cwc -dir "
+KIT-1004 : ChipWatcher: import watcher inst auto_chipwatcher_0 completed, there are 1 view nodes, 1 trigger nets, 1 data nets.
+GUI-1001 : Import DaChuang.cwc success!
+RUN-1002 : start command "download -bit DaChuang_Runs/phy_1/DaChuang.bit -mode jtag_burst -spd 7 -cable 0 -total_dev 1 -cur_dev 1"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit DaChuang_Runs/phy_1/DaChuang.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  6.271905s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+RUN-1004 : used memory is 650 MB, reserved memory is 579 MB, peak memory is 665 MB
+RUN-1003 : finish command "download -bit DaChuang_Runs/phy_1/DaChuang.bit -mode jtag_burst -spd 7 -cable 0 -total_dev 1 -cur_dev 1" in  6.466644s wall, 0.046875s user + 0.000000s system = 0.046875s CPU (0.7%)
+
+RUN-1004 : used memory is 650 MB, reserved memory is 579 MB, peak memory is 665 MB
+GUI-1001 : Downloading succeeded!
+KIT-1004 : ChipWatcher: write ctrl reg value: 00000000000000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 01011100100000000000000000010000
+KIT-1004 : ChipWatcher: the value of status register = 110000000000001000
+RUN-1002 : start command "rdbk_bram -bram 0X0004 -cable 0 -total_dev 1 -cur_dev 1"
+KIT-1001 : Read back data from BRAM 0X0004 successfully.
+SYN-2541 : Attrs-to-init for 1 logic bram(s)
+SYN-2541 : Reading sub[0] auto_chipwatcher_0_logicbram_syn_1
+KIT-1004 : ChipWatcher: write ctrl reg value: 01011100100000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 00000000000000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 01011100100000000000000000010000
+KIT-1004 : ChipWatcher: the value of status register = 110000000000001000
+RUN-1002 : start command "rdbk_bram -bram 0X0004 -cable 0 -total_dev 1 -cur_dev 1"
+KIT-1001 : Read back data from BRAM 0X0004 successfully.
+SYN-2541 : Attrs-to-init for 1 logic bram(s)
+SYN-2541 : Reading sub[0] auto_chipwatcher_0_logicbram_syn_1
+KIT-1004 : ChipWatcher: write ctrl reg value: 01011100100000000000000000000000
+HDL-1007 : analyze verilog file ../rtl/HC_SR04.v
+RUN-1001 : reset_run syn_1 phy_1.
+GUI-6001 WARNING: File C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang.bit does not exist!
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-6001 WARNING: syn_1: run failed.
+RUN-1001 : Print Global Property
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :        Parameters        |  Settings  |  Default Values  |  Note  
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 :          message         |  standard  |     standard     |        
+RUN-1001 :   mixed_pack_place_flow  |     on     |        on        |        
+RUN-1001 :        qor_monitor       |    off     |       off        |        
+RUN-1001 :        syn_ip_flow       |    off     |       off        |        
+RUN-1001 :          thread          |    auto    |       auto       |        
+RUN-1001 : ---------------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :   default_reg_initial   |    auto    |       auto       |        
+RUN-1001 :        infer_add        |     on     |        on        |        
+RUN-1001 :        infer_fsm        |    off     |       off        |        
+RUN-1001 :        infer_mult       |     on     |        on        |        
+RUN-1001 :        infer_ram        |     on     |        on        |        
+RUN-1001 :        infer_reg        |     on     |        on        |        
+RUN-1001 :   infer_reg_init_value  |     on     |        on        |        
+RUN-1001 :        infer_rom        |     on     |        on        |        
+RUN-1001 :      infer_shifter      |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 : Print Rtl Property
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :        Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------------
+RUN-1001 :       compress_add      |   ripple   |      ripple      |        
+RUN-1001 :        elf_sload        |    off     |       off        |        
+RUN-1001 :       fix_undriven      |     0      |        0         |        
+RUN-1001 :         flatten         |    off     |       off        |        
+RUN-1001 :       gate_sharing      |     on     |        on        |        
+RUN-1001 :    hdl_warning_level    |   normal   |      normal      |        
+RUN-1001 :   impl_internal_tribuf  |     on     |        on        |        
+RUN-1001 :      impl_set_reset     |     on     |        on        |        
+RUN-1001 :        infer_gsr        |    off     |       off        |        
+RUN-1001 :      keep_hierarchy     |    auto    |       auto       |        
+RUN-1001 :        max_fanout       |    9999    |       9999       |        
+RUN-1001 :      max_oh2bin_len     |     10     |        10        |        
+RUN-1001 :       merge_equal       |     on     |        on        |        
+RUN-1001 :       merge_equiv       |     on     |        on        |        
+RUN-1001 :        merge_mux        |    off     |       off        |        
+RUN-1001 :     min_control_set     |     8      |        8         |        
+RUN-1001 :      min_ripple_len     |    auto    |       auto       |        
+RUN-1001 :       oh2bin_ratio      |    0.08    |       0.08       |        
+RUN-1001 :     opt_adder_fanout    |     on     |        on        |        
+RUN-1001 :        opt_arith        |     on     |        on        |        
+RUN-1001 :       opt_big_gate      |    off     |       off        |        
+RUN-1001 :        opt_const        |     on     |        on        |        
+RUN-1001 :      opt_const_mult     |     on     |        on        |        
+RUN-1001 :       opt_lessthan      |     on     |        on        |        
+RUN-1001 :         opt_mux         |    off     |       off        |        
+RUN-1001 :         opt_ram         |    high    |       high       |        
+RUN-1001 :      rtl_sim_model      |    off     |       off        |        
+RUN-1001 :         seq_syn         |     on     |        on        |        
+RUN-1001 : --------------------------------------------------------------
+HDL-1007 : analyze verilog file ../rtl/uart_tx.v
+RUN-1001 : reset_run syn_1 phy_1.
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : net clk_dup_3 will be routed on clock mesh
+PHY-5010 WARNING: Net echo_dup_5 is skipped due to 0 input or output
+PHY-1001 : clock net config_inst_syn_10 will be merged with clock config_inst_syn_9
+PHY-5010 WARNING: Net echo_dup_5 is skipped due to 0 input or output
+PHY-1001 : eco open net = 0
+PHY-1001 : 1 feed throughs used by 1 nets
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import ChipWatcher
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+RUN-1003 : finish command "import_db C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang_pr.db" in  1.273521s wall, 0.843750s user + 0.015625s system = 0.859375s CPU (67.5%)
+
+RUN-1004 : used memory is 745 MB, reserved memory is 679 MB, peak memory is 745 MB
+RUN-1002 : start command "config_chipwatcher -sync DaChuang.cwc -dir "
+KIT-1004 : ChipWatcher: import watcher inst auto_chipwatcher_0 completed, there are 1 view nodes, 1 trigger nets, 1 data nets.
+GUI-1001 : Import DaChuang.cwc success!
+GUI-5004 WARNING: tx_out has not been assigned a location ...
+RUN-1001 : reset_run syn_1 phy_1.
+GUI-6001 WARNING: File C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang.bit does not exist!
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : net clk_dup_3 will be routed on clock mesh
+PHY-5010 WARNING: Net echo_dup_5 is skipped due to 0 input or output
+PHY-1001 : clock net config_inst_syn_10 will be merged with clock config_inst_syn_9
+PHY-5010 WARNING: Net echo_dup_5 is skipped due to 0 input or output
+PHY-1001 : eco open net = 0
+PHY-1001 : 0 feed throughs used by 0 nets
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import ChipWatcher
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+RUN-1003 : finish command "import_db C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang_pr.db" in  1.318888s wall, 0.312500s user + 0.015625s system = 0.328125s CPU (24.9%)
+
+RUN-1004 : used memory is 734 MB, reserved memory is 669 MB, peak memory is 748 MB
+RUN-1002 : start command "config_chipwatcher -sync DaChuang.cwc -dir "
+KIT-1004 : ChipWatcher: import watcher inst auto_chipwatcher_0 completed, there are 1 view nodes, 1 trigger nets, 1 data nets.
+GUI-1001 : Import DaChuang.cwc success!
+RUN-1002 : start command "download -bit DaChuang_Runs\phy_1\DaChuang.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit DaChuang_Runs/phy_1/DaChuang.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  6.260191s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+RUN-1004 : used memory is 753 MB, reserved memory is 686 MB, peak memory is 771 MB
+RUN-1003 : finish command "download -bit DaChuang_Runs\phy_1\DaChuang.bit -mode jtag -spd 7 -sec 64 -cable 0" in  6.457286s wall, 0.031250s user + 0.015625s system = 0.046875s CPU (0.7%)
+
+RUN-1004 : used memory is 753 MB, reserved memory is 686 MB, peak memory is 771 MB
+GUI-1001 : Downloading succeeded!
+HDL-1007 : analyze verilog file ../rtl/HC_SR04.v
+RUN-1001 : reset_run syn_1 phy_1.
+GUI-6001 WARNING: File C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang.bit does not exist!
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : net clk_dup_3 will be routed on clock mesh
+PHY-5010 WARNING: Net echo_dup_5 is skipped due to 0 input or output
+PHY-1001 : clock net config_inst_syn_10 will be merged with clock config_inst_syn_9
+PHY-5010 WARNING: Net echo_dup_5 is skipped due to 0 input or output
+PHY-1001 : eco open net = 0
+PHY-1001 : 3 feed throughs used by 3 nets
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import ChipWatcher
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+RUN-1003 : finish command "import_db C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang_pr.db" in  1.331865s wall, 0.703125s user + 0.046875s system = 0.750000s CPU (56.3%)
+
+RUN-1004 : used memory is 666 MB, reserved memory is 677 MB, peak memory is 771 MB
+RUN-1002 : start command "config_chipwatcher -sync DaChuang.cwc -dir "
+KIT-1004 : ChipWatcher: import watcher inst auto_chipwatcher_0 completed, there are 1 view nodes, 1 trigger nets, 1 data nets.
+GUI-1001 : Import DaChuang.cwc success!
+RUN-1002 : start command "download -bit DaChuang_Runs/phy_1/DaChuang.bit -mode jtag_burst -spd 7 -cable 0 -total_dev 1 -cur_dev 1"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit DaChuang_Runs/phy_1/DaChuang.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  6.316757s wall, 0.015625s user + 0.000000s system = 0.015625s CPU (0.2%)
+
+RUN-1004 : used memory is 667 MB, reserved memory is 678 MB, peak memory is 771 MB
+RUN-1003 : finish command "download -bit DaChuang_Runs/phy_1/DaChuang.bit -mode jtag_burst -spd 7 -cable 0 -total_dev 1 -cur_dev 1" in  6.511024s wall, 0.062500s user + 0.000000s system = 0.062500s CPU (1.0%)
+
+RUN-1004 : used memory is 667 MB, reserved memory is 678 MB, peak memory is 771 MB
+GUI-1001 : Downloading succeeded!
+PRG-1000 : <!-- HMAC is: c4aa0371967755167347665f3ae66fb15d9193d162f163531b6b7177320c18ef -->
+RUN-1001 : reset_run syn_1 phy_1.
+GUI-6001 WARNING: File C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang.bit does not exist!
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : net clk_dup_3 will be routed on clock mesh
+PHY-1001 : clock net config_inst_syn_10 will be merged with clock config_inst_syn_9
+PHY-1001 : eco open net = 0
+PHY-1001 : 2 feed throughs used by 2 nets
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import ChipWatcher
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+RUN-1003 : finish command "import_db C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang_pr.db" in  1.362729s wall, 0.109375s user + 0.015625s system = 0.125000s CPU (9.2%)
+
+RUN-1004 : used memory is 673 MB, reserved memory is 684 MB, peak memory is 771 MB
+RUN-1002 : start command "config_chipwatcher -sync DaChuang.cwc -dir "
+KIT-1004 : ChipWatcher: import watcher inst auto_chipwatcher_0 completed, there are 2 view nodes, 2 trigger nets, 2 data nets.
+GUI-1001 : Import DaChuang.cwc success!
+RUN-1002 : start command "download -bit DaChuang_Runs/phy_1/DaChuang.bit -mode jtag_burst -spd 7 -cable 0 -total_dev 1 -cur_dev 1"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit DaChuang_Runs/phy_1/DaChuang.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  6.306810s wall, 0.000000s user + 0.015625s system = 0.015625s CPU (0.2%)
+
+RUN-1004 : used memory is 690 MB, reserved memory is 699 MB, peak memory is 771 MB
+RUN-1003 : finish command "download -bit DaChuang_Runs/phy_1/DaChuang.bit -mode jtag_burst -spd 7 -cable 0 -total_dev 1 -cur_dev 1" in  6.504517s wall, 0.046875s user + 0.015625s system = 0.062500s CPU (1.0%)
+
+RUN-1004 : used memory is 690 MB, reserved memory is 699 MB, peak memory is 771 MB
+GUI-1001 : Downloading succeeded!
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000000000000000000000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000110101110010000000000000000001000000
+KIT-1004 : ChipWatcher: the value of status register = 010001111001000011
+KIT-1004 : ChipWatcher: the value of status register = 010001111110111111
+KIT-1004 : ChipWatcher: the value of status register = 010000010100010011
+KIT-1004 : ChipWatcher: the value of status register = 010000100000101000
+KIT-1004 : ChipWatcher: the value of status register = 010000111001000010
+KIT-1004 : ChipWatcher: the value of status register = 010000011111101110
+KIT-1004 : ChipWatcher: the value of status register = 010000100011100111
+KIT-1004 : ChipWatcher: the value of status register = 010000011100000111
+KIT-1004 : ChipWatcher: the value of status register = 010000010000001111
+KIT-1004 : ChipWatcher: the value of status register = 010001110110100100
+KIT-1004 : ChipWatcher: the value of status register = 010001111010100010
+KIT-1004 : ChipWatcher: the value of status register = 010001001001101101
+KIT-1004 : ChipWatcher: the value of status register = 010000011110111111
+KIT-1004 : ChipWatcher: the value of status register = 010000001110100100
+KIT-1004 : ChipWatcher: the value of status register = 010000001110110001
+KIT-1004 : ChipWatcher: the value of status register = 010001000010001101
+KIT-1004 : ChipWatcher: the value of status register = 010000010101011000
+KIT-1004 : ChipWatcher: the value of status register = 010000110101110000
+KIT-1004 : ChipWatcher: the value of status register = 010001101000101110
+KIT-1004 : ChipWatcher: the value of status register = 010000011101001100
+KIT-1004 : ChipWatcher: the value of status register = 010000001001111100
+KIT-1004 : ChipWatcher: the value of status register = 010001110001010110
+KIT-1004 : ChipWatcher: the value of status register = 010001000011001101
+KIT-1004 : ChipWatcher: the value of status register = 010000110111110000
+KIT-1004 : ChipWatcher: the value of status register = 010001011100111110
+KIT-1004 : ChipWatcher: the value of status register = 010001101110010100
+KIT-1004 : ChipWatcher: the value of status register = 010000111111101110
+KIT-1004 : ChipWatcher: the value of status register = 010000111010001010
+KIT-1004 : ChipWatcher: the value of status register = 010000000000100001
+KIT-1004 : ChipWatcher: the value of status register = 010001111110111010
+KIT-1004 : ChipWatcher: the value of status register = 010001001111001001
+KIT-1004 : ChipWatcher: the value of status register = 010001001111010100
+KIT-1004 : ChipWatcher: the value of status register = 010000101110101101
+KIT-1004 : ChipWatcher: the value of status register = 010000101000101010
+KIT-1004 : ChipWatcher: the value of status register = 010001010000001011
+KIT-1004 : ChipWatcher: the value of status register = 010000001000011100
+KIT-1004 : ChipWatcher: the value of status register = 010000001101111011
+KIT-1004 : ChipWatcher: the value of status register = 010001010001001010
+KIT-1004 : ChipWatcher: the value of status register = 010000101101010011
+KIT-1004 : ChipWatcher: the value of status register = 010000000011111111
+KIT-1004 : ChipWatcher: the value of status register = 010001111111000001
+KIT-1004 : ChipWatcher: the value of status register = 010000011011110011
+KIT-1004 : ChipWatcher: the value of status register = 010000101011101000
+KIT-1004 : ChipWatcher: the value of status register = 010001001100000011
+KIT-1004 : ChipWatcher: the value of status register = 010000010111011100
+KIT-1004 : ChipWatcher: the value of status register = 010000010011100010
+KIT-1004 : ChipWatcher: the value of status register = 010001010100011110
+KIT-1004 : ChipWatcher: the value of status register = 010000000100111101
+KIT-1004 : ChipWatcher: the value of status register = 010001100110001011
+KIT-1004 : ChipWatcher: the value of status register = 010001001100101101
+KIT-1004 : ChipWatcher: the value of status register = 010000101010011110
+KIT-1004 : ChipWatcher: the value of status register = 010000110101001100
+KIT-1004 : ChipWatcher: the value of status register = 010000001101010101
+KIT-1004 : ChipWatcher: the value of status register = 010000100010110110
+KIT-1004 : ChipWatcher: the value of status register = 010001100100101101
+KIT-1004 : ChipWatcher: the value of status register = 010001010110010010
+KIT-1004 : ChipWatcher: the value of status register = 010001111000011100
+KIT-1004 : ChipWatcher: the value of status register = 010001001101001001
+KIT-1004 : ChipWatcher: the value of status register = 010001000111011110
+KIT-1004 : ChipWatcher: the value of status register = 010000000111000110
+KIT-1004 : ChipWatcher: the value of status register = 010001101000100101
+KIT-1004 : ChipWatcher: the value of status register = 010000000001000011
+KIT-1004 : ChipWatcher: the value of status register = 010000100110110110
+HDL-1007 : analyze verilog file ../rtl/HC_SR04.v
+KIT-1004 : ChipWatcher: the value of status register = 010001111011110101
+KIT-1004 : ChipWatcher: the value of status register = 010001111101000111
+KIT-1004 : ChipWatcher: the value of status register = 010000010101011001
+KIT-1004 : ChipWatcher: the value of status register = 010000101010010101
+KIT-1004 : ChipWatcher: the value of status register = 010001100111000100
+KIT-1004 : ChipWatcher: the value of status register = 010001001010001111
+KIT-1004 : ChipWatcher: the value of status register = 010001111101011010
+KIT-1004 : ChipWatcher: the value of status register = 010000111111111111
+KIT-1004 : ChipWatcher: the value of status register = 010001110110110000
+KIT-1004 : ChipWatcher: the value of status register = 010000000010110111
+KIT-1004 : ChipWatcher: the value of status register = 010000001001011101
+KIT-1004 : ChipWatcher: the value of status register = 010000011010011010
+KIT-1004 : ChipWatcher: the value of status register = 010000101001010001
+KIT-1004 : ChipWatcher: the value of status register = 010001111100110011
+KIT-1004 : ChipWatcher: the value of status register = 010001111111001010
+KIT-1004 : ChipWatcher: the value of status register = 010001100001100011
+KIT-1004 : ChipWatcher: the value of status register = 010000011001011000
+KIT-1004 : ChipWatcher: the value of status register = 010000100010100011
+KIT-1004 : ChipWatcher: the value of status register = 010001011110011110
+KIT-1004 : ChipWatcher: the value of status register = 010001010100100100
+KIT-1004 : ChipWatcher: the value of status register = 010001101111000111
+KIT-1004 : ChipWatcher: the value of status register = 010000110001101111
+KIT-1004 : ChipWatcher: the value of status register = 010001100010111001
+KIT-1004 : ChipWatcher: the value of status register = 010000010101111001
+KIT-1004 : ChipWatcher: the value of status register = 010001101100010010
+KIT-1004 : ChipWatcher: the value of status register = 010001010111000111
+KIT-1004 : ChipWatcher: the value of status register = 010000011101111000
+KIT-1004 : ChipWatcher: the value of status register = 010000111011101100
+KIT-1004 : ChipWatcher: the value of status register = 010001000001000100
+KIT-1004 : ChipWatcher: the value of status register = 010001101111010001
+KIT-1004 : ChipWatcher: the value of status register = 010001000100110000
+KIT-1004 : ChipWatcher: the value of status register = 010001100001010111
+KIT-1004 : ChipWatcher: the value of status register = 010001110111110011
+KIT-1004 : ChipWatcher: the value of status register = 010000010100110001
+KIT-1004 : ChipWatcher: the value of status register = 010000101100101010
+KIT-1004 : ChipWatcher: the value of status register = 010000100100001101
+KIT-1004 : ChipWatcher: the value of status register = 010001010011001010
+KIT-1004 : ChipWatcher: the value of status register = 010001111110110110
+KIT-1004 : ChipWatcher: the value of status register = 010001100111110001
+KIT-1004 : ChipWatcher: the value of status register = 010001100111001110
+KIT-1004 : ChipWatcher: the value of status register = 010000011010101101
+KIT-1004 : ChipWatcher: the value of status register = 010001010010000100
+KIT-1004 : ChipWatcher: the value of status register = 010000000010010111
+KIT-1004 : ChipWatcher: the value of status register = 010001010000110101
+KIT-1004 : ChipWatcher: the value of status register = 010001100000011101
+KIT-1004 : ChipWatcher: the value of status register = 010000001010000011
+KIT-1004 : ChipWatcher: the value of status register = 010001110110101001
+KIT-1004 : ChipWatcher: the value of status register = 010000011111110001
+KIT-1004 : ChipWatcher: the value of status register = 010001101010111001
+KIT-1004 : ChipWatcher: the value of status register = 010000001000011000
+KIT-1004 : ChipWatcher: the value of status register = 010000011101011100
+KIT-1004 : ChipWatcher: the value of status register = 010000011111010110
+KIT-1004 : ChipWatcher: the value of status register = 010000010110011110
+KIT-1004 : ChipWatcher: the value of status register = 010000001011011110
+KIT-1004 : ChipWatcher: the value of status register = 010001100111011001
+KIT-1004 : ChipWatcher: the value of status register = 010000101110011010
+KIT-1004 : ChipWatcher: the value of status register = 010001110011011001
+KIT-1004 : ChipWatcher: the value of status register = 010000010111011101
+KIT-1004 : ChipWatcher: the value of status register = 010000011101101100
+KIT-1004 : ChipWatcher: the value of status register = 010000011001111001
+KIT-1004 : ChipWatcher: the value of status register = 010001010010001110
+KIT-1004 : ChipWatcher: the value of status register = 010000010000100010
+KIT-1004 : ChipWatcher: the value of status register = 010001011001110101
+KIT-1004 : ChipWatcher: the value of status register = 010001110101001000
+KIT-1004 : ChipWatcher: the value of status register = 010000101101001100
+KIT-1004 : ChipWatcher: the value of status register = 010000110011110100
+KIT-1004 : ChipWatcher: the value of status register = 010001110101111101
+KIT-1004 : ChipWatcher: the value of status register = 010001000111010110
+KIT-1004 : ChipWatcher: the value of status register = 010000100111101010
+KIT-1004 : ChipWatcher: the value of status register = 010001001110100110
+KIT-1004 : ChipWatcher: the value of status register = 010001110111001100
+KIT-1004 : ChipWatcher: the value of status register = 010001011011110001
+KIT-1004 : ChipWatcher: the value of status register = 010000100001010110
+KIT-1004 : ChipWatcher: the value of status register = 010001010110000111
+KIT-1004 : ChipWatcher: the value of status register = 010001101101100110
+KIT-1004 : ChipWatcher: the value of status register = 010001100010100100
+KIT-1004 : ChipWatcher: the value of status register = 010000100110111101
+KIT-1004 : ChipWatcher: the value of status register = 010001010101011010
+KIT-1004 : ChipWatcher: the value of status register = 010001100111111111
+KIT-1004 : ChipWatcher: the value of status register = 010000110000111010
+KIT-1004 : ChipWatcher: the value of status register = 010001101001001111
+KIT-1004 : ChipWatcher: the value of status register = 010001000101001101
+KIT-1004 : ChipWatcher: the value of status register = 010000010001000011
+KIT-1004 : ChipWatcher: the value of status register = 010000100010011000
+KIT-1004 : ChipWatcher: the value of status register = 010001001101100000
+KIT-1004 : ChipWatcher: the value of status register = 010000100001111100
+KIT-1004 : ChipWatcher: the value of status register = 010000100100011110
+KIT-1004 : ChipWatcher: the value of status register = 010001001010100111
+KIT-1004 : ChipWatcher: the value of status register = 010000010110100000
+KIT-1004 : ChipWatcher: the value of status register = 010000101010011110
+KIT-1004 : ChipWatcher: the value of status register = 010001101111100110
+KIT-1004 : ChipWatcher: the value of status register = 010001011100010010
+KIT-1004 : ChipWatcher: the value of status register = 010001100101110010
+KIT-1004 : ChipWatcher: the value of status register = 010000111011111010
+KIT-1004 : ChipWatcher: the value of status register = 010000111101001000
+KIT-1004 : ChipWatcher: the value of status register = 010001101101011000
+KIT-1004 : ChipWatcher: the value of status register = 010000110101110100
+KIT-1004 : ChipWatcher: the value of status register = 010001100111101110
+KIT-1004 : ChipWatcher: the value of status register = 010001010100100000
+KIT-1004 : ChipWatcher: the value of status register = 010001101000011101
+KIT-1004 : ChipWatcher: the value of status register = 010001101100100100
+KIT-1004 : ChipWatcher: the value of status register = 010000111011100100
+KIT-1004 : ChipWatcher: the value of status register = 010000001001101111
+KIT-1004 : ChipWatcher: the value of status register = 010001000111100001
+KIT-1004 : ChipWatcher: the value of status register = 010001101011011010
+KIT-1004 : ChipWatcher: the value of status register = 010001111100100000
+KIT-1004 : ChipWatcher: the value of status register = 010000011011111110
+KIT-1004 : ChipWatcher: the value of status register = 010001011010001111
+KIT-1004 : ChipWatcher: the value of status register = 010000000001110100
+KIT-1004 : ChipWatcher: the value of status register = 010001001110111000
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000110101110010000000000000000011000000
+KIT-1004 : ChipWatcher: the value of status register = 010000011001101111
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000000000000000000000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000110101110010000000000000000001000000
+KIT-1004 : ChipWatcher: the value of status register = 010000000101011110
+KIT-1004 : ChipWatcher: the value of status register = 010000000000111001
+KIT-1004 : ChipWatcher: the value of status register = 010001001000111011
+KIT-1004 : ChipWatcher: the value of status register = 010000000001100001
+KIT-1004 : ChipWatcher: the value of status register = 010001110100110110
+KIT-1004 : ChipWatcher: the value of status register = 010000000010011100
+KIT-1004 : ChipWatcher: the value of status register = 010000010000000001
+KIT-1004 : ChipWatcher: the value of status register = 010000010001101000
+KIT-1004 : ChipWatcher: the value of status register = 010000100101100000
+KIT-1004 : ChipWatcher: the value of status register = 010001100000011101
+KIT-1004 : ChipWatcher: the value of status register = 010000010101110010
+KIT-1004 : ChipWatcher: the value of status register = 010000000110001110
+KIT-1004 : ChipWatcher: the value of status register = 010001100001100001
+KIT-1004 : ChipWatcher: the value of status register = 010001010001000101
+KIT-1004 : ChipWatcher: the value of status register = 010000001010011101
+KIT-1004 : ChipWatcher: the value of status register = 010001010000010000
+KIT-1004 : ChipWatcher: the value of status register = 010000111100000001
+KIT-1004 : ChipWatcher: the value of status register = 010000010010111001
+KIT-1004 : ChipWatcher: the value of status register = 010001111111100001
+KIT-1004 : ChipWatcher: the value of status register = 010000110001110001
+KIT-1004 : ChipWatcher: the value of status register = 010001110101000111
+KIT-1004 : ChipWatcher: the value of status register = 010001111000110001
+KIT-1004 : ChipWatcher: the value of status register = 010000101000100011
+KIT-1004 : ChipWatcher: the value of status register = 010000010010010010
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000110101110010000000000000000011000000
+KIT-1004 : ChipWatcher: the value of status register = 010001011010110001
+RUN-1001 : reset_run syn_1 phy_1.
+GUI-6001 WARNING: File C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang.bit does not exist!
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : net clk_dup_3 will be routed on clock mesh
+PHY-1001 : clock net config_inst_syn_10 will be merged with clock config_inst_syn_9
+PHY-1001 : eco open net = 0
+PHY-1001 : 4 feed throughs used by 4 nets
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import ChipWatcher
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+RUN-1003 : finish command "import_db C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang_pr.db" in  1.399246s wall, 0.125000s user + 0.031250s system = 0.156250s CPU (11.2%)
+
+RUN-1004 : used memory is 685 MB, reserved memory is 695 MB, peak memory is 771 MB
+RUN-1002 : start command "config_chipwatcher -sync DaChuang.cwc -dir "
+KIT-1004 : ChipWatcher: import watcher inst auto_chipwatcher_0 completed, there are 2 view nodes, 2 trigger nets, 2 data nets.
+GUI-1001 : Import DaChuang.cwc success!
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000000000000000000000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000110101110010000000000000000001000000
+KIT-1004 : ChipWatcher: the value of status register = 110000000111010101
+RUN-1002 : start command "rdbk_bram -bram 0X0004 -cable 0"
+KIT-1001 : Read back data from BRAM 0X0004 successfully.
+RUN-1002 : start command "rdbk_bram -bram 0X0005 -cable 0"
+KIT-1001 : Read back data from BRAM 0X0005 successfully.
+SYN-2541 : Attrs-to-init for 2 logic bram(s)
+SYN-2541 : Reading sub[0] auto_chipwatcher_0_logicbram_syn_1
+SYN-2541 : Reading sub[1] auto_chipwatcher_0_logicbram_syn_3
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000110101110010000000000000000000000000
+GUI-1001 : User closes ChipWatcher ...
+RUN-1002 : start command "config_chipwatcher -sync DaChuang.cwc -dir "
+KIT-1004 : ChipWatcher: import watcher inst auto_chipwatcher_0 completed, there are 2 view nodes, 2 trigger nets, 2 data nets.
+GUI-1001 : Import DaChuang.cwc success!
+GUI-1001 : User opens ChipWatcher ...
+RUN-1002 : start command "download -bit DaChuang_Runs/phy_1/DaChuang.bit -mode jtag_burst -spd 7 -cable 0 -total_dev 1 -cur_dev 1"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit DaChuang_Runs/phy_1/DaChuang.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  6.316466s wall, 0.000000s user + 0.015625s system = 0.015625s CPU (0.2%)
+
+RUN-1004 : used memory is 693 MB, reserved memory is 702 MB, peak memory is 771 MB
+RUN-1003 : finish command "download -bit DaChuang_Runs/phy_1/DaChuang.bit -mode jtag_burst -spd 7 -cable 0 -total_dev 1 -cur_dev 1" in  6.512536s wall, 0.015625s user + 0.015625s system = 0.031250s CPU (0.5%)
+
+RUN-1004 : used memory is 693 MB, reserved memory is 702 MB, peak memory is 771 MB
+GUI-1001 : Downloading succeeded!
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000000000000000000000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000110101110010000000000000000001000000
+KIT-1004 : ChipWatcher: the value of status register = 010001101111101001
+KIT-1004 : ChipWatcher: the value of status register = 110001001011111000
+RUN-1002 : start command "rdbk_bram -bram 0X0004 -cable 0 -total_dev 1 -cur_dev 1"
+KIT-1001 : Read back data from BRAM 0X0004 successfully.
+RUN-1002 : start command "rdbk_bram -bram 0X0005 -cable 0 -total_dev 1 -cur_dev 1"
+KIT-1001 : Read back data from BRAM 0X0005 successfully.
+SYN-2541 : Attrs-to-init for 2 logic bram(s)
+SYN-2541 : Reading sub[0] auto_chipwatcher_0_logicbram_syn_1
+SYN-2541 : Reading sub[1] auto_chipwatcher_0_logicbram_syn_3
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000110101110010000000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000000000000000000000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000110101110010000000000000000001000000
+KIT-1004 : ChipWatcher: the value of status register = 110001001011111101
+RUN-1002 : start command "rdbk_bram -bram 0X0004 -cable 0 -total_dev 1 -cur_dev 1"
+KIT-1001 : Read back data from BRAM 0X0004 successfully.
+RUN-1002 : start command "rdbk_bram -bram 0X0005 -cable 0 -total_dev 1 -cur_dev 1"
+KIT-1001 : Read back data from BRAM 0X0005 successfully.
+SYN-2541 : Attrs-to-init for 2 logic bram(s)
+SYN-2541 : Reading sub[0] auto_chipwatcher_0_logicbram_syn_1
+SYN-2541 : Reading sub[1] auto_chipwatcher_0_logicbram_syn_3
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000110101110010000000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000000000000000000000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000110101110010000000000000000001000000
+KIT-1004 : ChipWatcher: the value of status register = 110001110110101010
+RUN-1002 : start command "rdbk_bram -bram 0X0004 -cable 0 -total_dev 1 -cur_dev 1"
+KIT-1001 : Read back data from BRAM 0X0004 successfully.
+RUN-1002 : start command "rdbk_bram -bram 0X0005 -cable 0 -total_dev 1 -cur_dev 1"
+KIT-1001 : Read back data from BRAM 0X0005 successfully.
+SYN-2541 : Attrs-to-init for 2 logic bram(s)
+SYN-2541 : Reading sub[0] auto_chipwatcher_0_logicbram_syn_1
+SYN-2541 : Reading sub[1] auto_chipwatcher_0_logicbram_syn_3
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000110101110010000000000000000000000000
+GUI-1001 : User closes ChipWatcher ...
+RUN-1002 : start command "config_chipwatcher -sync DaChuang.cwc -dir "
+KIT-1004 : ChipWatcher: import watcher inst auto_chipwatcher_0 completed, there are 2 view nodes, 2 trigger nets, 2 data nets.
+GUI-1001 : Import DaChuang.cwc success!
+GUI-1001 : User opens ChipWatcher ...
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000000000000000000000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000110101110010000000000000000001000000
+KIT-1004 : ChipWatcher: the value of status register = 110001111110010010
+RUN-1002 : start command "rdbk_bram -bram 0X0004 -cable 0 -total_dev 1 -cur_dev 1"
+KIT-1001 : Read back data from BRAM 0X0004 successfully.
+RUN-1002 : start command "rdbk_bram -bram 0X0005 -cable 0 -total_dev 1 -cur_dev 1"
+KIT-1001 : Read back data from BRAM 0X0005 successfully.
+SYN-2541 : Attrs-to-init for 2 logic bram(s)
+SYN-2541 : Reading sub[0] auto_chipwatcher_0_logicbram_syn_1
+SYN-2541 : Reading sub[1] auto_chipwatcher_0_logicbram_syn_3
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000110101110010000000000000000000000000
+HDL-1007 : analyze verilog file ../rtl/HC_SR04.v
+RUN-1001 : reset_run syn_1 phy_1.
+GUI-6001 WARNING: File C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang.bit does not exist!
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-1001 : syn_1: run complete.
+RUN-1001 : phy_1: run complete.
+RUN-1001 : open_run phy_1.
+RUN-1002 : start command "import_db C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang_pr.db"
+RUN-1001 : Importing database generated by Tang Dynasty, V5.6.71036.
+RUN-1001 : Database version number 46146.
+RUN-1001 : Import flow parameters
+PHY-1001 : Generate detailed routing grids ...
+PHY-1001 : Generate nets ...
+PHY-1001 : net clk_dup_3 will be routed on clock mesh
+PHY-1001 : clock net config_inst_syn_10 will be merged with clock config_inst_syn_9
+PHY-1001 : eco open net = 0
+PHY-1001 : 2 feed throughs used by 2 nets
+RUN-1001 : Import IO constraints
+RUN-1001 : Import Inst constraints
+RUN-1001 : Import ChipWatcher
+RUN-1001 : Import design success TD_VERSION=5.6.71036 , DB_VERSION=46146
+RUN-1003 : finish command "import_db C:/Users/lkin/Desktop/DaChuang/Code/td_prj/DaChuang_Runs/phy_1/DaChuang_pr.db" in  1.436121s wall, 1.125000s user + 0.093750s system = 1.218750s CPU (84.9%)
+
+RUN-1004 : used memory is 689 MB, reserved memory is 698 MB, peak memory is 771 MB
+RUN-1002 : start command "config_chipwatcher -sync DaChuang.cwc -dir "
+KIT-1004 : ChipWatcher: import watcher inst auto_chipwatcher_0 completed, there are 2 view nodes, 2 trigger nets, 2 data nets.
+GUI-1001 : Import DaChuang.cwc success!
+RUN-1002 : start command "download -bit DaChuang_Runs/phy_1/DaChuang.bit -mode jtag_burst -spd 7 -cable 0 -total_dev 1 -cur_dev 1"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit DaChuang_Runs/phy_1/DaChuang.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  6.312259s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+
+RUN-1004 : used memory is 686 MB, reserved memory is 695 MB, peak memory is 771 MB
+RUN-1003 : finish command "download -bit DaChuang_Runs/phy_1/DaChuang.bit -mode jtag_burst -spd 7 -cable 0 -total_dev 1 -cur_dev 1" in  6.513375s wall, 0.062500s user + 0.000000s system = 0.062500s CPU (1.0%)
+
+RUN-1004 : used memory is 686 MB, reserved memory is 695 MB, peak memory is 771 MB
+GUI-1001 : Downloading succeeded!
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000000000000000000000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000110101110010000000000000000001000000
+KIT-1004 : ChipWatcher: the value of status register = 110001110111001011
+RUN-1002 : start command "rdbk_bram -bram 0X0004 -cable 0 -total_dev 1 -cur_dev 1"
+KIT-1001 : Read back data from BRAM 0X0004 successfully.
+RUN-1002 : start command "rdbk_bram -bram 0X0005 -cable 0 -total_dev 1 -cur_dev 1"
+KIT-1001 : Read back data from BRAM 0X0005 successfully.
+SYN-2541 : Attrs-to-init for 2 logic bram(s)
+SYN-2541 : Reading sub[0] auto_chipwatcher_0_logicbram_syn_1
+SYN-2541 : Reading sub[1] auto_chipwatcher_0_logicbram_syn_3
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000110101110010000000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000000000000000000000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000110101110010000000000000000001000000
+KIT-1004 : ChipWatcher: the value of status register = 110001100010000010
+RUN-1002 : start command "rdbk_bram -bram 0X0004 -cable 0 -total_dev 1 -cur_dev 1"
+KIT-1001 : Read back data from BRAM 0X0004 successfully.
+RUN-1002 : start command "rdbk_bram -bram 0X0005 -cable 0 -total_dev 1 -cur_dev 1"
+KIT-1001 : Read back data from BRAM 0X0005 successfully.
+SYN-2541 : Attrs-to-init for 2 logic bram(s)
+SYN-2541 : Reading sub[0] auto_chipwatcher_0_logicbram_syn_1
+SYN-2541 : Reading sub[1] auto_chipwatcher_0_logicbram_syn_3
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000110101110010000000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000000000000000000000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000110101110010000000000000000001000000
+KIT-1004 : ChipWatcher: the value of status register = 110000001000101010
+RUN-1002 : start command "rdbk_bram -bram 0X0004 -cable 0 -total_dev 1 -cur_dev 1"
+KIT-1001 : Read back data from BRAM 0X0004 successfully.
+RUN-1002 : start command "rdbk_bram -bram 0X0005 -cable 0 -total_dev 1 -cur_dev 1"
+KIT-1001 : Read back data from BRAM 0X0005 successfully.
+SYN-2541 : Attrs-to-init for 2 logic bram(s)
+SYN-2541 : Reading sub[0] auto_chipwatcher_0_logicbram_syn_1
+SYN-2541 : Reading sub[1] auto_chipwatcher_0_logicbram_syn_3
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000110101110010000000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000000000000000000000000000000000000000
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000110101110010000000000000000001000000
+KIT-1004 : ChipWatcher: the value of status register = 110001000101100110
+RUN-1002 : start command "rdbk_bram -bram 0X0004 -cable 0 -total_dev 1 -cur_dev 1"
+KIT-1001 : Read back data from BRAM 0X0004 successfully.
+RUN-1002 : start command "rdbk_bram -bram 0X0005 -cable 0 -total_dev 1 -cur_dev 1"
+KIT-1001 : Read back data from BRAM 0X0005 successfully.
+SYN-2541 : Attrs-to-init for 2 logic bram(s)
+SYN-2541 : Reading sub[0] auto_chipwatcher_0_logicbram_syn_1
+SYN-2541 : Reading sub[1] auto_chipwatcher_0_logicbram_syn_3
+KIT-1004 : ChipWatcher: write ctrl reg value: 0000110101110010000000000000000000000000
+GUI-1001 : User closes ChipWatcher ...

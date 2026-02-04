@@ -1,0 +1,79 @@
+standard
+***Report Model: radar_top_auto Device: EG4S20BG256***
+
+IO Statistics
+#IO                         7
+  #input                    4
+  #output                   3
+  #inout                    0
+
+Utilization Statistics
+#lut                     4218   out of  19600   21.52%
+#reg                      605   out of  19600    3.09%
+#le                      4318
+  #lut only              3713   out of   4318   85.99%
+  #reg only               100   out of   4318    2.32%
+  #lut&reg                505   out of   4318   11.70%
+#dsp                        5   out of     29   17.24%
+#bram                       2   out of     64    3.12%
+  #bram9k                   2
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#pad                        7   out of    188    3.72%
+  #ireg                     2
+  #oreg                     3
+  #treg                     0
+#pll                        0   out of      4    0.00%
+#gclk                       1   out of     16    6.25%
+
+Clock Resource Statistics
+Index     ClockNet                     Type               DriverType         Driver              Fanout
+#1        u_radar_top/u_hc_sr04/clk    GCLK               io                 clk_syn_2.di        325
+#2        config_inst_syn_9            GCLK               config             config_inst.jtck    47
+
+
+Detailed IO Report
+
+     Name        Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+      clk          INPUT         R7        LVCMOS25          N/A          PULLUP      NONE    
+     echo          INPUT        R16        LVCMOS25          N/A          PULLUP      IREG    
+     rst_n         INPUT         A9        LVCMOS25          N/A          PULLUP      NONE    
+  uart_rx_in       INPUT        F12        LVCMOS25          N/A          PULLUP      IREG    
+   servo_pwm      OUTPUT        M11        LVCMOS25           8            NONE       OREG    
+     trig         OUTPUT        P12        LVCMOS25           8            NONE       OREG    
+  uart_tx_out     OUTPUT        D12        LVCMOS25           8            NONE       OREG    
+
+Report Hierarchy Area:
++---------------------------------------------------------------------------------------------------------+
+|Instance                            |Module         |le     |lut     |ripple  |seq     |bram    |dsp     |
++---------------------------------------------------------------------------------------------------------+
+|top                                 |radar_top_auto |4318   |2980    |1238    |610     |2       |5       |
+|  u_radar_top                       |radar_top      |3986   |2787    |1169    |440     |0       |5       |
+|    u_hc_sr04                       |HC_SR04        |239    |202     |37      |43      |0       |0       |
+|    u_sg90                          |sg90           |203    |162     |32      |43      |0       |1       |
+|    u_uart_rx                       |uart_rx        |98     |91      |7       |45      |0       |0       |
+|    u_uart_tx                       |uart_tx        |64     |57      |7       |40      |0       |0       |
+|  cw_top                            |CW_TOP_WRAPPER |332    |193     |69      |165     |0       |0       |
+|    wrapper_cwc_top                 |cwc_top        |332    |193     |69      |165     |0       |0       |
+|      cfg_int_inst                  |cwc_cfg_int    |88     |30      |0       |87      |0       |0       |
+|        reg_inst                    |register       |86     |28      |0       |85      |0       |0       |
+|        tap_inst                    |tap            |2      |2       |0       |2       |0       |0       |
+|      trigger_inst                  |trigger        |244    |163     |69      |78      |0       |0       |
+|        bus_inst                    |bus_top        |2      |2       |0       |2       |0       |0       |
+|          BUS_DETECTOR[1]$bus_nodes |bus_det        |2      |2       |0       |2       |0       |0       |
+|        emb_ctrl_inst               |emb_ctrl       |145    |108     |37      |53      |0       |0       |
++---------------------------------------------------------------------------------------------------------+
+
+
+DataNet Average Fanout:
+
+   Index     Fanout     Nets  
+    #1          1       2622  
+    #2          2       566   
+    #3          3       676   
+    #4          4       205   
+    #5        5-10      275   
+    #6        11-50     105   
+    #7       51-100      7    
+    #8       101-500     1    
+  Average     2.57            
